@@ -1,7 +1,7 @@
 # Naive-Bayes-using-Apache-Spark
 Implementation of non-blocking Naive Bayes Classifier
 
-In this project report, an overview of Apache Spark and its advantages over other streaming databases was discussed along with the properties that made it beneficial for my Naïve Bayes Classifier implementation. I gave a brief description of the dataset I used for modeling the classifier. I designed and implemented the Naïve Bayes Classifier purely in SQL using Spark SQL as the DSMS and python as the facilitator while achieving an accuracy of 77.3% in predicting the test data tuples.
+In this project, an overview of Apache Spark and its advantages over other streaming databases was noted along with the properties that made it beneficial for my Naïve Bayes Classifier implementation. I gave a brief description of the dataset I used for modeling the classifier. I designed and implemented the Naïve Bayes Classifier purely in SQL using Spark SQL as the DSMS and python as the facilitator while achieving an accuracy of 77.3% in predicting the test data tuples.
 I generalized my implementation for all datasets by converting the training data set into verticalized data set. Also, I ensured a non-blocking implementation of Naïve Bayes Classifier. The prediction of each test tuple is output immediately after its processing and the accuracy of prediction is output after periodic intervals of batches. 
 
 The Dataset
